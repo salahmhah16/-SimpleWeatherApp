@@ -1,0 +1,15 @@
+# .gitignore
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore environment variables (in case you add API keys later)
+.env
+
+# Ignore build artifacts (if you add a build step in future)
+dist/
+build/
